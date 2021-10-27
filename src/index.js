@@ -16,6 +16,11 @@ app.listen(port, function() {
   console.log("Server running on port " + port);
 });
 
-app.get("/", function(req, res) {
-  res.render("../views/home");
+app.get("/home", function(req, res) {
+  res.render("home");
 });
+
+app.get("/", function(req, res) {
+  res.redirect("home");
+});
+
