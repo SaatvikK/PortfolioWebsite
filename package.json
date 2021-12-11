@@ -9,9 +9,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "*",
-    "morgan": "*"
-  }
+  "license": "ISC"
 }
