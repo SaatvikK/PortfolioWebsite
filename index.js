@@ -20,16 +20,12 @@ app.get("/home", function(req, res) {
   res.render("home");
 });
 
+app.get("/about", function(req, res) {
+  res.render("about")
+})
+
 app.get("/projects", function(req, res) {
-  res.render("projects")
-});
-
-app.get("/aboutme", function(req, res) {
-  res.render("aboutme");
-});
-
-app.post("/projects", function(req, res) {
-  res.redirect("projects");
+  res.render("projects");
 });
 
 app.get("/", function(req, res) {
