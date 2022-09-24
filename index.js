@@ -24,6 +24,10 @@ app.get("/projects", function(req, res) {
   res.render("projects")
 });
 
+app.get("/aboutme", function(req, res) {
+  res.render("aboutme");
+});
+
 app.post("/projects", function(req, res) {
   res.redirect("projects");
 });
